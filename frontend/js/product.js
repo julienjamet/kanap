@@ -84,7 +84,7 @@ function addProduct() {
 /*La fonction qui va récupérer les données de l'API puis les injecter dans le HTML*/
 function getApi_products() {
 /*On importe les données de l'article qui correspond à l'id présent dans l'url*/
-    fetch(`http://localhost:3000/api/products/${id}`)
+    fetch(`https://julienjamet-kanap.herokuapp.com/api/products/${id}`)
 /*Test de validation : si OK, récupération des données de l'API*/
     .then(function(res) {
         if (res.ok) {

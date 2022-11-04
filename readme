@@ -1,11 +1,1 @@
-This project has been made during my dev training (JavaScript).
-
-I created the whole [./frontend/js] folder to enable the frontend to communicate with the API.
-
-To run the site locally, please follow these instructions : 
-
-- Clone the repository 
-- From the [./backend] folder, run `npm install` then `node server`
-- Your console should now be indicating "Listening on port 3000"
-- Double-click on the [./index.html] file
-- You're done !
+This branch is used to connect the frontend to the deployed API.

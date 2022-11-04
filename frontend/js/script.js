@@ -15,7 +15,7 @@ const items = document.querySelector("section.items");
 /*La fonction qui va récupérer les données de l'API
 puis les injecter dans le HTML*/
 function getApi_index() {
-    fetch("http://localhost:3000/api/products")
+    fetch("https://julienjamet-kanap.herokuapp.com/api/products")
 /*Test de validation : si OK, récupération des données de l'API*/
     .then(function(res) {
         if (res.ok) {
