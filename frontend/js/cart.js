@@ -60,7 +60,7 @@ async function showCart() {
 
     /*On appelle l'API pour récupérer les données de chaque article contenu dans le panier, via son id*/
     for (let i in cart) {
-        await fetch(`http://localhost:3000/api/products/${cart[i].id}`)
+        await fetch(`https://julienjamet-kanap-k9uu.onrender.com/api/products/${cart[i].id}`)
             /*Test de validation : si OK, récupération des données de l'API*/
             .then(function (res) {
                 if (res.ok) {
@@ -276,7 +276,7 @@ order.addEventListener("click", function (e) {
         }
         /*On effectue ensuite une requête POST sur l'API*/
         function send() {
-            fetch(`http://localhost:3000/api/products/order`, {
+            fetch(`https://julienjamet-kanap-k9uu.onrender.com/api/products/order`, {
                 method: "POST",
                 headers: {
                     'Accept': 'application/json',

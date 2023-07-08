@@ -1,21 +1,7 @@
-This project has been made during my dev training (JavaScript).
+This branch is used for deployment.
 
-I created the whole [./frontend/js] folder to enable the frontend to communicate with the API.
+I first deployed my API, then modified my JavaScript code to make the frontend connect to this live version, instead of the local one.
 
 The deployed version of the site can be visited by clicking on the link located in the About section (connecting to the API may take a few seconds).
 
-You can access the code of the deployed version by switching to the other branch.
-
-To run the site locally, you will need to have Node and npm installed on your machine.
-
-Then please follow these instructions :
-
-- Clone the repository
-
-- From the [./backend] folder, run `npm install` then `npm start`
-
-- Your console should now be indicating `Listening on port 3000`
-
-- Double-click on the [./index.html] file
-
-- You're done !
+You can access the code of the local version by switching to the other branch.
